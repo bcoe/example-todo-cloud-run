@@ -3,7 +3,7 @@ import {
   makeMergedSchema,
   makeServices,
 } from 'redwood-express-api'
-import importAll from '@redwoodjs/api/importAll.macro'
+import importAll from 'redwood-express-api/importAll.macro'
 
 import { db } from 'src/lib/db'
 
