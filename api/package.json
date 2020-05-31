@@ -3,6 +3,9 @@
   "name": "api",
   "version": "0.0.0",
   "dependencies": {
-    "@redwoodjs/api": "0.7.0"
+    "redwood-express-api": "^0.8.1"
+  },
+  "scripts": {
+    "start": "node ./dist/functions/graphql"
   }
 }

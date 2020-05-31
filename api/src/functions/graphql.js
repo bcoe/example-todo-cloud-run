@@ -2,7 +2,7 @@ import {
   createGraphQLHandler,
   makeMergedSchema,
   makeServices,
-} from '@redwoodjs/api'
+} from 'redwood-express-api'
 import importAll from '@redwoodjs/api/importAll.macro'
 
 import { db } from 'src/lib/db'
