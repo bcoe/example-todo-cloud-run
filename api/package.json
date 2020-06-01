@@ -3,9 +3,14 @@
   "name": "api",
   "version": "0.0.0",
   "dependencies": {
+    "@babel/runtime-corejs3": "^7.10.2",
     "redwood-express-api": "^0.8.1"
   },
   "scripts": {
+    "postinstall": "prisma generate",
     "start": "node ./dist/functions/graphql"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.0.0-beta.7"
   }
 }
